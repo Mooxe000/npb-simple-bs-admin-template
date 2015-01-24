@@ -1,0 +1,48 @@
+{
+  "name": "npb-devoops",
+  "version": "0.0.0-pre",
+  "description": "npb-devoops project",
+  "author": ":FooTearth <footearth@gmail.com>",
+  "main": "dist/index.html",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/repo_id/project_name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/repo_id/project_name/issues"
+  },
+  "homepage": "https://github.com/repo_id/project_name",
+  "Keywords": [
+    "your keywords"
+  ],
+  "bin": {},
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^1.9.1",
+    "coffee-script": "^1.8.0",
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-coffee": "^2.2.0",
+    "gulp-csso": "^0.2.9",
+    "gulp-filter": "^2.0.0",
+    "gulp-inline-angular-templates": "^0.1.5",
+    "gulp-jade": "^0.11.0",
+    "gulp-less": "^2.0.1",
+    "gulp-minify-css": "^0.4.2",
+    "gulp-minify-html": "^0.1.8",
+    "gulp-rev": "^3.0.0",
+    "gulp-rev-replace": "^0.3.1",
+    "gulp-tap": "^0.1.3",
+    "gulp-uglify": "^1.1.0",
+    "gulp-usemin": "^0.3.11",
+    "gulp-useref": "^1.1.1",
+    "gulp-watch": "^4.0.3",
+    "lodash": "^2.4.1",
+    "npb-coffee": "^0.1.3",
+    "run-sequence": "^1.0.2"
+  }
+}

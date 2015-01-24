@@ -1,0 +1,78 @@
+# PUBLIC CONFIG
+name: 'npb-devoops'
+version: '0.0.0-pre'
+description: 'npb-devoops project'
+author: ':FooTearth <footearth@gmail.com>'
+main: 'dist/index.html'
+license: 'MIT'
+repository:
+  type: 'git'
+  url: 'https://github.com/repo_id/project_name.git'
+bugs:
+  url: 'https://github.com/repo_id/project_name/issues'
+homepage: 'https://github.com/repo_id/project_name'
+Keywords: [
+  'your keywords'
+]
+
+# BOWER CONFIG
+bower:
+  dependencies:
+    'bootstrap' : [
+      'dist/css/bootstrap.css'
+      'dist/js/bootstrap.js'
+      'dist/fonts/glyphicons-halflings-regular.eot'
+      'dist/fonts/glyphicons-halflings-regular.svg'
+      'dist/fonts/glyphicons-halflings-regular.ttf'
+      'dist/fonts/glyphicons-halflings-regular.woff'
+      'dist/fonts/glyphicons-halflings-regular.woff2'
+    ]
+    jquery: 'dist/jquery.js'
+  devDependencies: []
+
+# NPM CONFIG
+npm:
+  bin: {}
+  scripts:
+    test: ''
+  dependencies: []
+  devDependencies: [
+    'coffee-script'
+    'npb-coffee'
+    'lodash'
+    'del'
+    gulp: [
+      # dev
+      'run-sequence'
+      'gulp-filter'
+      'gulp-coffee'
+      'gulp-jade'
+      'gulp-less'
+      'gulp-tap'
+      'gulp-watch'
+      'browser-sync'
+      # dist
+      'gulp-inline-angular-templates'
+      'gulp-usemin'
+      'gulp-useref'
+      'gulp-minify-html'
+      'gulp-minify-css'
+      'gulp-csso'
+      'gulp-uglify'
+      'gulp-rev'
+      'gulp-rev-replace'
+    ]
+  ]
+
+# NPB CONFIG
+npb:
+
+#  bower:
+#    root_allow: true
+  npm:
+    commander: 'npm' # default
+    # commander: 'cnpm'
+
+# -- build tools --
+#  build: 'gulp'  # default
+#  build: 'grunt'

@@ -1,0 +1,24 @@
+{
+  "name": "npb-devoops",
+  "version": "0.0.0-pre",
+  "description": "npb-devoops project",
+  "author": ":FooTearth <footearth@gmail.com>",
+  "main": "dist/index.html",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/repo_id/project_name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/repo_id/project_name/issues"
+  },
+  "homepage": "https://github.com/repo_id/project_name",
+  "Keywords": [
+    "your keywords"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "jquery": "~2.1.3"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,27 @@
+.container
+  .col-md-4
+    ul#myTab.nav.nav-tabs
+      li.active
+        a(href="#profile", data-toggle="tab") Profile
+      li
+        a(href="#messages", data-toggle="tab") Messages
+      li
+        a(href="#settings", data-toggle="tab") Settings
+    .tab-content
+      #profile.tab-pane.active
+        h4
+          i.glyphicon.glyphicon-user
+        | Lorem profile dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        p
+          | Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+          | dolor, in sagittis nisi.
+      #messages.tab-pane
+        h4
+          i.glyphicon.glyphicon-comment
+        | Message ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        p Quisque mauris augu.
+      #settings.tab-pane
+        h4
+          i.glyphicon.glyphicon-cog
+        | Lorem settings dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        p Quisque mauris augue, molestie.
